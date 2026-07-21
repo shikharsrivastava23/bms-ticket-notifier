@@ -225,15 +225,6 @@
       "price": "295.00",
       "status": "2"
     },
-    "ET00452034|PRHN|253361|20260730|EXECUTIVE": {
-      "event": "ET00452034",
-      "venue": "Prasads Multiplex: Hyderabad",
-      "time": "10:40 AM",
-      "date": "20260730",
-      "cat": "EXECUTIVE",
-      "price": "295.00",
-      "status": "3"
-    },
     "ET00504055|ALUC|3209|20260725|PLATINUM": {
       "event": "ET00504055",
       "venue": "ALLU Cinemas: Kokapet",
@@ -528,6 +519,15 @@
       "time": "08:45 AM",
       "date": "20260727",
       "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00452034|PRHN|253361|20260730|EXECUTIVE": {
+      "event": "ET00452034",
+      "venue": "Prasads Multiplex: Hyderabad",
+      "time": "10:40 AM",
+      "date": "20260730",
+      "cat": "EXECUTIVE",
       "price": "295.00",
       "status": "3"
     }
