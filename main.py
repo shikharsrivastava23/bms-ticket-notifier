@@ -20,14 +20,18 @@ import requests
 # CONFIGURATION — edit these or set via env vars
 # ──────────────────────────────────────────────────────────────────────
 CONFIG = {
-    "url": os.getenv(
-        "BMS_URL",
+    "urls": os.getenv(
+        "BMS_URLS",
         "https://in.bookmyshow.com/movies/chennai/dhurandhar-the-revenge/buytickets/ET00478890"
-    ),
+    ),  # comma-separated URLs
     "dates": os.getenv("BMS_DATES", ""),          # comma-separated YYYYMMDD, empty = from URL
     "theatre": os.getenv("BMS_THEATRE", ""),       # substring filter, empty = all
     "time_period": os.getenv("BMS_TIME", ""),      # e.g. "evening,night", empty = all
 }
+
+# Fallback to BMS_URL for backwards compatibility
+if not os.getenv("BMS_URLS") and os.getenv("BMS_URL"):
+    CONFIG["urls"] = os.getenv("BMS_URL")
 
 RESEND_API_KEY = os.getenv("RESEND_API_KEY", "")
 RESEND_TO_EMAIL = os.getenv("RESEND_TO_EMAIL", "")
@@ -72,7 +76,7 @@ REGION_MAP = {
 }
 
 
-# ─────────────────────────────────────���────────────────────────────────
+# ─────────────────────────────────────────────────────────────────────
 # DATA
 # ──────────────────────────────────────────────────────────────────────
 @dataclass
@@ -90,6 +94,7 @@ class ShowInfo:
     time: str
     time_code: str
     screen_attr: str
+    event_code: str  # Track which event this show belongs to
     categories: list[CatInfo] = field(default_factory=list)
 
 @dataclass
@@ -216,7 +221,7 @@ def parse_dates(data):
     return dates
 
 
-def parse_shows(data):
+def parse_shows(data, event_code):
     shows = []
     for w in data.get("data", {}).get("showtimeWidgets", []):
         if w.get("type") != "groupList":
@@ -250,6 +255,7 @@ def parse_shows(data):
                         time_code=sa.get("showTimeCode", ""),
                         screen_attr=(st.get("screenAttr", "")
                                      or sa.get("attributes", "")),
+                        event_code=event_code,
                     )
                     for cat in sa.get("categories", []):
                         ca = str(cat.get("availStatus", ""))
@@ -327,8 +333,9 @@ def build_state(shows, dates):
     show_state = {}
     for s in shows:
         for c in s.categories:
-            key = f"{s.venue_code}|{s.session_id}|{s.date_code}|{c.name}"
+            key = f"{s.event_code}|{s.venue_code}|{s.session_id}|{s.date_code}|{c.name}"
             show_state[key] = {
+                "event": s.event_code,
                 "venue": s.venue_name,
                 "time": s.time,
                 "date": s.date_code,
@@ -526,57 +533,73 @@ def send_email(subject, changes, shows, movie_info):
 # ──────────────────────────────────────────────────────────────────────
 def main():
     now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"[{now_str}] BMS Ticket Checker — CI mode")
+    print(f"[{now_str}] BMS Ticket Checker — CI mode (multi-URL)")
 
-    # Parse config
-    parsed = parse_bms_url(CONFIG["url"])
-    event_code = parsed["event_code"]
-    region_slug = parsed["region_slug"]
-    url_date = parsed.get("date_code", "")
+    # Parse URLs from config (comma-separated)
+    url_string = CONFIG["urls"].strip()
+    urls = [u.strip() for u in url_string.split(",") if u.strip()]
 
-    if not event_code or not region_slug:
-        print("  ❌ Invalid BMS_URL. Could not extract event/region.")
+    if not urls:
+        print("  ❌ No URLs configured in BMS_URLS")
         sys.exit(1)
 
-    region_code, region_slug_r, lat, lon, geohash = resolve_region(
-        region_slug
-    )
+    print(f"  🔍 Checking {len(urls)} URL(s)")
 
-    # Determine dates to check
-    raw_dates = CONFIG["dates"].strip()
-    if raw_dates:
-        date_list = [d.strip() for d in raw_dates.split(",") if d.strip()]
-    elif url_date:
-        date_list = [url_date]
-    else:
-        date_list = [""]
-
-    print(f"  Event: {event_code}  Region: {region_code}  "
-          f"Dates: {date_list}")
-
-    # Fetch data for each date
     all_shows = []
     all_dates = []
-    movie_info = {"name": "Unknown", "language": ""}
+    movies_found = {}  # event_code -> movie_info
 
-    for dc in date_list:
-        data = fetch_bms(event_code, dc, region_code,
-                         region_slug_r, lat, lon, geohash)
-        if not data:
-            print(f"  ⚠️  No data for date {dc or '(default)'}")
+    # Process each URL
+    for url in urls:
+        print(f"\n  📌 Processing: {url}")
+        parsed = parse_bms_url(url)
+        event_code = parsed["event_code"]
+        region_slug = parsed["region_slug"]
+        url_date = parsed.get("date_code", "")
+
+        if not event_code or not region_slug:
+            print(f"    ⚠️  Could not extract event/region from URL")
             continue
 
-        if movie_info["name"] == "Unknown":
-            movie_info = parse_movie_info(data)
+        region_code, region_slug_r, lat, lon, geohash = resolve_region(
+            region_slug
+        )
 
-        all_dates.extend(parse_dates(data))
-        all_shows.extend(parse_shows(data))
+        # Determine dates to check
+        raw_dates = CONFIG["dates"].strip()
+        if raw_dates:
+            date_list = [d.strip() for d in raw_dates.split(",") if d.strip()]
+        elif url_date:
+            date_list = [url_date]
+        else:
+            date_list = [""]
+
+        print(f"    Event: {event_code}  Region: {region_code}  "
+              f"Dates: {date_list}")
+
+        # Fetch data for each date
+        for dc in date_list:
+            data = fetch_bms(event_code, dc, region_code,
+                             region_slug_r, lat, lon, geohash)
+            if not data:
+                print(f"    ⚠️  No data for date {dc or '(default)'}")
+                continue
+
+            if event_code not in movies_found:
+                movies_found[event_code] = parse_movie_info(data)
+
+            all_dates.extend(parse_dates(data))
+            all_shows.extend(parse_shows(data, event_code))
+
+        if event_code in movies_found:
+            info = movies_found[event_code]
+            print(f"    🎬 {info['name']}  {info['language']}")
 
     if not all_shows:
-        print("  ❌ No showtimes found.")
+        print("\n  ❌ No showtimes found across all URLs.")
         sys.exit(0)
 
-    print(f"  🎬 {movie_info['name']}  {movie_info['language']}")
+    print(f"\n  📊 {len(all_shows)} showtime(s) total before filters")
 
     # Apply filters
     filtered = filter_shows(
@@ -585,7 +608,7 @@ def main():
         CONFIG["time_period"],
         CONFIG["dates"],
     )
-    print(f"  📊 {len(filtered)} showtime(s) after filters")
+    print(f"  🎯 {len(filtered)} showtime(s) after filters")
 
     # Build state & detect changes
     new_state = build_state(filtered, all_dates)
@@ -601,22 +624,29 @@ def main():
         print(f"\n  ⚡ {len(changes)} change(s) detected:")
         for c in changes:
             print(f"     {c}")
+        
+        # Use first movie name for email subject
+        first_movie = list(movies_found.values())[0]['name'] if movies_found else "Movie"
         send_email(
-            f"BMS Alert: {movie_info['name']} - {len(changes)} change(s)",
-            changes, filtered, movie_info,
+            f"BMS Alert: {first_movie} - {len(changes)} change(s)",
+            changes, filtered, {"name": first_movie, "language": ""},
         )
     else:
         print("  ✅ No changes since last check.")
 
-    # Print current status
+    # Print current status grouped by event
     print(f"\n  Current status ({len(filtered)} shows):")
-    for s in filtered:
-        cats = ", ".join(
-            f"{c.name}=₹{c.price}({AVAIL_STATUS_MAP.get(c.status, ('?',''))[0]})"
-            for c in s.categories
-        )
-        fmt = f"|{s.screen_attr}" if s.screen_attr else ""
-        print(f"    {s.venue_name} — {s.time}{fmt} [{s.date_code}] — {cats}")
+    for event_code in sorted(set(s.event_code for s in filtered)):
+        event_shows = [s for s in filtered if s.event_code == event_code]
+        movie_name = movies_found.get(event_code, {}).get("name", "Unknown")
+        print(f"    {movie_name} ({event_code})")
+        for s in event_shows:
+            cats = ", ".join(
+                f"{c.name}=₹{c.price}({AVAIL_STATUS_MAP.get(c.status, ('?',''))[0]})"
+                for c in s.categories
+            )
+            fmt = f"|{s.screen_attr}" if s.screen_attr else ""
+            print(f"      {s.venue_name} — {s.time}{fmt} [{s.date_code}] — {cats}")
 
     print("\n  Done.")
 
