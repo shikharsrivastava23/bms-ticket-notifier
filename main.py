@@ -10,6 +10,7 @@ import os
 import re
 import sys
 import json
+import time
 from html import escape
 from datetime import datetime
 from dataclasses import dataclass, field
@@ -176,14 +177,18 @@ def fetch_bms(event_code, date_code, region_code, region_slug,
         "memberId": "", "lsId": "", "subCode": "",
         "lat": lat, "lon": lon,
     }
-    try:
-        resp = requests.get(API_URL, headers=headers,
-                            params=params, timeout=15)
-        if resp.status_code == 200:
-            return resp.json()
-        print(f"  HTTP {resp.status_code}")
-    except requests.RequestException as e:
-        print(f"  Request failed: {e}")
+    backoffs = [2, 4]
+    for attempt in range(len(backoffs) + 1):
+        try:
+            resp = requests.get(API_URL, headers=headers,
+                                params=params, timeout=15)
+            if resp.status_code == 200:
+                return resp.json()
+            print(f"  HTTP {resp.status_code}")
+        except requests.RequestException as e:
+            print(f"  Request failed: {e}")
+        if attempt < len(backoffs):
+            time.sleep(backoffs[attempt])
     return None
 
 
@@ -264,7 +269,7 @@ def parse_shows(data, event_code):
                         ca = str(cat.get("availStatus", ""))
                         lbl, _ = AVAIL_STATUS_MAP.get(ca, ("UNKNOWN", ""))
                         show.categories.append(CatInfo(
-                            name=cat.get("priceDesc", ""),
+                            name=cat.get("priceDesc", "").strip().rstrip("."),
                             price=cat.get("curPrice", "0"),
                             status=ca,
                         ))
@@ -629,6 +634,7 @@ def main():
     all_shows = []
     all_dates = []
     movies_found = {}  # event_code -> movie_info
+    failed_fetches = []  # (event_code, date_code) pairs that failed after retries
 
     # Process each URL
     for url in urls:
@@ -664,6 +670,8 @@ def main():
                              region_slug_r, lat, lon, geohash)
             if not data:
                 print(f"    ⚠️  No data for date {dc or '(default)'}")
+                if dc:
+                    failed_fetches.append((event_code, dc))
                 continue
 
             if event_code not in movies_found:
@@ -694,6 +702,27 @@ def main():
     # Build state & detect changes
     new_state = build_state(filtered, all_dates)
     old_state = load_state()
+
+    # Preserve prior state for dates that failed to fetch this run, so a
+    # transient outage doesn't look like the date's shows disappeared and
+    # then falsely reappear as "new" once the fetch succeeds again.
+    if failed_fetches:
+        old_shows = old_state.get("shows", {})
+        old_dates = old_state.get("dates", {})
+        for event_code, date_code in failed_fetches:
+            carried = 0
+            for key, v in old_shows.items():
+                if (v.get("event") == event_code
+                        and v.get("date") == date_code
+                        and key not in new_state["shows"]):
+                    new_state["shows"][key] = v
+                    carried += 1
+            if date_code in old_dates and date_code not in new_state["dates"]:
+                new_state["dates"][date_code] = old_dates[date_code]
+            if carried:
+                print(f"  ⚠️  Preserving stale state for {event_code} "
+                      f"{date_code} — fetch failed after retries "
+                      f"({carried} show(s) carried over)")
 
     changes = []
     if old_state:
