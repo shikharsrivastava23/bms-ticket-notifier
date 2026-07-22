@@ -57,7 +57,7 @@
     "ET00452034|AMBH|115337|20260725|PLATINUM": {
       "event": "ET00452034",
       "venue": "AMB Cinemas: Gachibowli",
-      "time": "03:30 PM",
+      "time": "03:25 PM",
       "date": "20260725",
       "cat": "PLATINUM",
       "price": "350.00",
@@ -66,7 +66,7 @@
     "ET00452034|AMBH|115337|20260725|GOLD": {
       "event": "ET00452034",
       "venue": "AMB Cinemas: Gachibowli",
-      "time": "03:30 PM",
+      "time": "03:25 PM",
       "date": "20260725",
       "cat": "GOLD",
       "price": "295.00",
@@ -75,7 +75,7 @@
     "ET00452034|AMBH|115337|20260725|LOUNGERS": {
       "event": "ET00452034",
       "venue": "AMB Cinemas: Gachibowli",
-      "time": "03:30 PM",
+      "time": "03:25 PM",
       "date": "20260725",
       "cat": "LOUNGERS",
       "price": "295.00",
@@ -84,7 +84,7 @@
     "ET00452034|AMBH|115338|20260725|PLATINUM": {
       "event": "ET00452034",
       "venue": "AMB Cinemas: Gachibowli",
-      "time": "07:05 PM",
+      "time": "07:00 PM",
       "date": "20260725",
       "cat": "PLATINUM",
       "price": "350.00",
@@ -93,7 +93,7 @@
     "ET00452034|AMBH|115338|20260725|GOLD": {
       "event": "ET00452034",
       "venue": "AMB Cinemas: Gachibowli",
-      "time": "07:05 PM",
+      "time": "07:00 PM",
       "date": "20260725",
       "cat": "GOLD",
       "price": "295.00",
@@ -102,7 +102,7 @@
     "ET00452034|AMBH|115338|20260725|LOUNGERS": {
       "event": "ET00452034",
       "venue": "AMB Cinemas: Gachibowli",
-      "time": "07:05 PM",
+      "time": "07:00 PM",
       "date": "20260725",
       "cat": "LOUNGERS",
       "price": "295.00",
@@ -111,7 +111,7 @@
     "ET00452034|AMBH|115339|20260725|PLATINUM": {
       "event": "ET00452034",
       "venue": "AMB Cinemas: Gachibowli",
-      "time": "10:40 PM",
+      "time": "10:30 PM",
       "date": "20260725",
       "cat": "PLATINUM",
       "price": "350.00",
@@ -120,7 +120,7 @@
     "ET00452034|AMBH|115339|20260725|GOLD": {
       "event": "ET00452034",
       "venue": "AMB Cinemas: Gachibowli",
-      "time": "10:40 PM",
+      "time": "10:30 PM",
       "date": "20260725",
       "cat": "GOLD",
       "price": "295.00",
@@ -129,7 +129,7 @@
     "ET00452034|AMBH|115339|20260725|LOUNGERS": {
       "event": "ET00452034",
       "venue": "AMB Cinemas: Gachibowli",
-      "time": "10:40 PM",
+      "time": "10:30 PM",
       "date": "20260725",
       "cat": "LOUNGERS",
       "price": "295.00",
