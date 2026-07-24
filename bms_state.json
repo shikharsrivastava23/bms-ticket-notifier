@@ -358,7 +358,7 @@
       "date": "20260726",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "3"
+      "status": "2"
     },
     "ET00452034|AMBH|115477|20260726|LOUNGERS": {
       "event": "ET00452034",
@@ -782,6 +782,141 @@
       "cat": "GOLD",
       "price": "295.00",
       "status": "2"
+    },
+    "ET00452034|AMBH|115584|20260728|PLATINUM": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "09:55 AM",
+      "date": "20260728",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "2"
+    },
+    "ET00452034|AMBH|115584|20260728|GOLD": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "09:55 AM",
+      "date": "20260728",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00452034|AMBH|115584|20260728|LOUNGERS": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "09:55 AM",
+      "date": "20260728",
+      "cat": "LOUNGERS",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00452034|AMBH|115563|20260728|PLATINUM": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "11:50 AM",
+      "date": "20260728",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00452034|AMBH|115563|20260728|GOLD": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "11:50 AM",
+      "date": "20260728",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00452034|AMBH|115563|20260728|LOUNGERS": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "11:50 AM",
+      "date": "20260728",
+      "cat": "LOUNGERS",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00452034|AMBH|115564|20260728|PLATINUM": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "03:20 PM",
+      "date": "20260728",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00452034|AMBH|115564|20260728|GOLD": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "03:20 PM",
+      "date": "20260728",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00452034|AMBH|115564|20260728|LOUNGERS": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "03:20 PM",
+      "date": "20260728",
+      "cat": "LOUNGERS",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00452034|AMBH|115565|20260728|PLATINUM": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "06:50 PM",
+      "date": "20260728",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00452034|AMBH|115565|20260728|GOLD": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "06:50 PM",
+      "date": "20260728",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00452034|AMBH|115565|20260728|LOUNGERS": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "06:50 PM",
+      "date": "20260728",
+      "cat": "LOUNGERS",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00452034|AMBH|115566|20260728|PLATINUM": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "10:20 PM",
+      "date": "20260728",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00452034|AMBH|115566|20260728|GOLD": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "10:20 PM",
+      "date": "20260728",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00452034|AMBH|115566|20260728|LOUNGERS": {
+      "event": "ET00452034",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "10:20 PM",
+      "date": "20260728",
+      "cat": "LOUNGERS",
+      "price": "295.00",
+      "status": "3"
     },
     "ET00452034|PRHN|251857|20260728|GOLD": {
       "event": "ET00452034",
