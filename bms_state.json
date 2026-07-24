@@ -610,7 +610,7 @@
       "date": "20260727",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "2"
+      "status": "1"
     },
     "ET00452034|AMBH|115560|20260727|GOLD": {
       "event": "ET00452034",
@@ -961,7 +961,7 @@
       "date": "20260728",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "2"
+      "status": "1"
     },
     "ET00452034|PRHN|251862|20260729|GOLD": {
       "event": "ET00452034",
