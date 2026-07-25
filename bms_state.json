@@ -774,6 +774,15 @@
       "price": "295.00",
       "status": "1"
     },
+    "ET00452034|PVUM|27528|20260727|CLASSIC": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "04:05 PM",
+      "date": "20260727",
+      "cat": "CLASSIC",
+      "price": "295.00",
+      "status": "3"
+    },
     "ET00452034|AMBH|115584|20260728|PLATINUM": {
       "event": "ET00452034",
       "venue": "AMB Cinemas: Gachibowli",
@@ -990,6 +999,78 @@
       "price": "295.00",
       "status": "1"
     },
+    "ET00452034|PVUM|27559|20260728|RECLINER": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "11:30 AM",
+      "date": "20260728",
+      "cat": "RECLINER",
+      "price": "349.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27559|20260728|CLASSIC": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "11:30 AM",
+      "date": "20260728",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27560|20260728|RECLINER": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "03:00 PM",
+      "date": "20260728",
+      "cat": "RECLINER",
+      "price": "349.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27560|20260728|CLASSIC": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "03:00 PM",
+      "date": "20260728",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27561|20260728|RECLINER": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "06:30 PM",
+      "date": "20260728",
+      "cat": "RECLINER",
+      "price": "349.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27561|20260728|CLASSIC": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "06:30 PM",
+      "date": "20260728",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27562|20260728|RECLINER": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "10:00 PM",
+      "date": "20260728",
+      "cat": "RECLINER",
+      "price": "349.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27562|20260728|CLASSIC": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "10:00 PM",
+      "date": "20260728",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
     "ET00452034|PRHN|251862|20260729|GOLD": {
       "event": "ET00452034",
       "venue": "Prasads Multiplex: Hyderabad",
@@ -1035,6 +1116,87 @@
       "price": "295.00",
       "status": "1"
     },
+    "ET00452034|PVUM|27579|20260729|RECLINER": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "11:30 AM",
+      "date": "20260729",
+      "cat": "RECLINER",
+      "price": "350.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27579|20260729|CLASSIC": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "11:30 AM",
+      "date": "20260729",
+      "cat": "CLASSIC",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27580|20260729|RECLINER": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "03:00 PM",
+      "date": "20260729",
+      "cat": "RECLINER",
+      "price": "350.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27580|20260729|CLASSIC": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "03:00 PM",
+      "date": "20260729",
+      "cat": "CLASSIC",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27590|20260729|CLASSIC": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "04:05 PM",
+      "date": "20260729",
+      "cat": "CLASSIC",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27581|20260729|RECLINER": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "06:30 PM",
+      "date": "20260729",
+      "cat": "RECLINER",
+      "price": "350.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27581|20260729|CLASSIC": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "06:30 PM",
+      "date": "20260729",
+      "cat": "CLASSIC",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27582|20260729|RECLINER": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "10:00 PM",
+      "date": "20260729",
+      "cat": "RECLINER",
+      "price": "350.00",
+      "status": "3"
+    },
+    "ET00452034|PVUM|27582|20260729|CLASSIC": {
+      "event": "ET00452034",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "10:00 PM",
+      "date": "20260729",
+      "cat": "CLASSIC",
+      "price": "295.00",
+      "status": "3"
+    },
     "ET00452034|PRHN|253361|20260730|EXECUTIVE": {
       "event": "ET00452034",
       "venue": "Prasads Multiplex: Hyderabad",
@@ -1069,7 +1231,7 @@
       "date": "20260725",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "0"
+      "status": "1"
     },
     "ET00504055|ALUC|3213|20260725|PLATINUM": {
       "event": "ET00504055",
