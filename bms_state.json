@@ -16,7 +16,7 @@
       "date": "20260725",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "1"
+      "status": "0"
     },
     "ET00452034|AMBH|115339|20260725|LOUNGERS": {
       "event": "ET00452034",
@@ -115,7 +115,7 @@
       "date": "20260726",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "0"
+      "status": "1"
     },
     "ET00452034|AMBH|115604|20260726|GOLD": {
       "event": "ET00452034",
@@ -1267,7 +1267,7 @@
       "date": "20260725",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "1"
+      "status": "0"
     },
     "ET00504055|ALUC|3214|20260726|PLATINUM": {
       "event": "ET00504055",
