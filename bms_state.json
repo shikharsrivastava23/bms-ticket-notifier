@@ -502,7 +502,7 @@
       "date": "20260728",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "1"
+      "status": "2"
     },
     "ET00452034|PRHN|251858|20260728|GOLD": {
       "event": "ET00452034",
@@ -772,6 +772,15 @@
       "date": "20260729",
       "cat": "CLASSIC",
       "price": "249.00",
+      "status": "3"
+    },
+    "ET00452034|PRHN|253361|20260730|EXECUTIVE": {
+      "event": "ET00452034",
+      "venue": "Prasads Multiplex: Hyderabad",
+      "time": "10:40 AM",
+      "date": "20260730",
+      "cat": "EXECUTIVE",
+      "price": "295.00",
       "status": "3"
     },
     "ET00504055|ALUC|3288|20260727|PLATINUM": {
@@ -1095,15 +1104,6 @@
       "time": "12:25 PM",
       "date": "20260729",
       "cat": "GOLD",
-      "price": "295.00",
-      "status": "3"
-    },
-    "ET00452034|PRHN|253361|20260730|EXECUTIVE": {
-      "event": "ET00452034",
-      "venue": "Prasads Multiplex: Hyderabad",
-      "time": "10:40 AM",
-      "date": "20260730",
-      "cat": "EXECUTIVE",
       "price": "295.00",
       "status": "3"
     }
