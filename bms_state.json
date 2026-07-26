@@ -1,32 +1,5 @@
 {
   "shows": {
-    "ET00452034|AMBH|115502|20260726|PLATINUM": {
-      "event": "ET00452034",
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "07:35 PM",
-      "date": "20260726",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00452034|AMBH|115502|20260726|GOLD": {
-      "event": "ET00452034",
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "07:35 PM",
-      "date": "20260726",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "1"
-    },
-    "ET00452034|AMBH|115502|20260726|LOUNGERS": {
-      "event": "ET00452034",
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "07:35 PM",
-      "date": "20260726",
-      "cat": "LOUNGERS",
-      "price": "295.00",
-      "status": "1"
-    },
     "ET00452034|AMBH|115480|20260726|PLATINUM": {
       "event": "ET00452034",
       "venue": "AMB Cinemas: Gachibowli",
@@ -70,7 +43,7 @@
       "date": "20260726",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "2"
+      "status": "1"
     },
     "ET00452034|AMBH|115636|20260726|LOUNGERS": {
       "event": "ET00452034",
@@ -1241,33 +1214,6 @@
       "cat": "GOLD",
       "price": "295.00",
       "status": "3"
-    },
-    "ET00504055|ALUC|3217|20260726|PLATINUM": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "07:45 PM",
-      "date": "20260726",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00504055|ALUC|3217|20260726|DIRECTOR CHOICE": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "07:45 PM",
-      "date": "20260726",
-      "cat": "DIRECTOR CHOICE",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00504055|ALUC|3217|20260726|GOLD": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "07:45 PM",
-      "date": "20260726",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "0"
     }
   },
   "dates": {
