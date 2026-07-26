@@ -34,7 +34,7 @@
       "date": "20260726",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "0"
+      "status": "2"
     },
     "ET00452034|AMBH|115636|20260726|GOLD": {
       "event": "ET00452034",
@@ -934,7 +934,7 @@
       "date": "20260727",
       "cat": "DIRECTOR CHOICE",
       "price": "350.00",
-      "status": "2"
+      "status": "1"
     },
     "ET00504055|ALUC|3338|20260727|GOLD": {
       "event": "ET00504055",
