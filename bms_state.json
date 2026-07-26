@@ -1538,24 +1538,6 @@
       "cat": "GOLD",
       "price": "295.00",
       "status": "3"
-    },
-    "ET00452034|ALUC|3322|20260726|PLATINUM": {
-      "event": "ET00452034",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "09:05 AM",
-      "date": "20260726",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00452034|ALUC|3322|20260726|GOLD": {
-      "event": "ET00452034",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "09:05 AM",
-      "date": "20260726",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "1"
     }
   },
   "dates": {
