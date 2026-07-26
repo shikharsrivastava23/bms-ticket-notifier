@@ -1,32 +1,5 @@
 {
   "shows": {
-    "ET00452034|AMBH|115477|20260726|PLATINUM": {
-      "event": "ET00452034",
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "12:00 PM",
-      "date": "20260726",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00452034|AMBH|115477|20260726|GOLD": {
-      "event": "ET00452034",
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "12:00 PM",
-      "date": "20260726",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "1"
-    },
-    "ET00452034|AMBH|115477|20260726|LOUNGERS": {
-      "event": "ET00452034",
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "12:00 PM",
-      "date": "20260726",
-      "cat": "LOUNGERS",
-      "price": "295.00",
-      "status": "1"
-    },
     "ET00452034|AMBH|115613|20260726|PLATINUM": {
       "event": "ET00452034",
       "venue": "AMB Cinemas: Gachibowli",
@@ -115,7 +88,7 @@
       "date": "20260726",
       "cat": "LOUNGERS",
       "price": "295.00",
-      "status": "3"
+      "status": "2"
     },
     "ET00452034|AMBH|115502|20260726|PLATINUM": {
       "event": "ET00452034",
@@ -268,7 +241,7 @@
       "date": "20260726",
       "cat": "RECLINER",
       "price": "350.00",
-      "status": "2"
+      "status": "0"
     },
     "ET00452034|PVUM|27462|20260726|CLASSIC": {
       "event": "ET00452034",
@@ -1161,6 +1134,141 @@
       "price": "295.00",
       "status": "2"
     },
+    "ET00504055|ALUC|3288|20260727|PLATINUM": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "08:45 AM",
+      "date": "20260727",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00504055|ALUC|3288|20260727|DIRECTOR CHOICE": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "08:45 AM",
+      "date": "20260727",
+      "cat": "DIRECTOR CHOICE",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00504055|ALUC|3288|20260727|GOLD": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "08:45 AM",
+      "date": "20260727",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00504055|ALUC|3338|20260727|PLATINUM": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "12:25 PM",
+      "date": "20260727",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00504055|ALUC|3338|20260727|DIRECTOR CHOICE": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "12:25 PM",
+      "date": "20260727",
+      "cat": "DIRECTOR CHOICE",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00504055|ALUC|3338|20260727|GOLD": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "12:25 PM",
+      "date": "20260727",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00504055|ALUC|3339|20260727|PLATINUM": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "04:05 PM",
+      "date": "20260727",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00504055|ALUC|3339|20260727|DIRECTOR CHOICE": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "04:05 PM",
+      "date": "20260727",
+      "cat": "DIRECTOR CHOICE",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00504055|ALUC|3339|20260727|GOLD": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "04:05 PM",
+      "date": "20260727",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00504055|ALUC|3340|20260727|PLATINUM": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "07:45 PM",
+      "date": "20260727",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00504055|ALUC|3340|20260727|DIRECTOR CHOICE": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "07:45 PM",
+      "date": "20260727",
+      "cat": "DIRECTOR CHOICE",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00504055|ALUC|3340|20260727|GOLD": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "07:45 PM",
+      "date": "20260727",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "2"
+    },
+    "ET00504055|ALUC|3341|20260727|PLATINUM": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "11:25 PM",
+      "date": "20260727",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00504055|ALUC|3341|20260727|DIRECTOR CHOICE": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "11:25 PM",
+      "date": "20260727",
+      "cat": "DIRECTOR CHOICE",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00504055|ALUC|3341|20260727|GOLD": {
+      "event": "ET00504055",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "11:25 PM",
+      "date": "20260727",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
     "ET00504055|ALUC|3296|20260728|PLATINUM": {
       "event": "ET00504055",
       "venue": "ALLU Cinemas: Kokapet",
@@ -1346,141 +1454,6 @@
       "venue": "ALLU Cinemas: Kokapet",
       "time": "12:25 PM",
       "date": "20260729",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "3"
-    },
-    "ET00504055|ALUC|3288|20260727|PLATINUM": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "08:45 AM",
-      "date": "20260727",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00504055|ALUC|3288|20260727|DIRECTOR CHOICE": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "08:45 AM",
-      "date": "20260727",
-      "cat": "DIRECTOR CHOICE",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00504055|ALUC|3288|20260727|GOLD": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "08:45 AM",
-      "date": "20260727",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "3"
-    },
-    "ET00504055|ALUC|3338|20260727|PLATINUM": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "12:25 PM",
-      "date": "20260727",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00504055|ALUC|3338|20260727|DIRECTOR CHOICE": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "12:25 PM",
-      "date": "20260727",
-      "cat": "DIRECTOR CHOICE",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00504055|ALUC|3338|20260727|GOLD": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "12:25 PM",
-      "date": "20260727",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "3"
-    },
-    "ET00504055|ALUC|3339|20260727|PLATINUM": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "04:05 PM",
-      "date": "20260727",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00504055|ALUC|3339|20260727|DIRECTOR CHOICE": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "04:05 PM",
-      "date": "20260727",
-      "cat": "DIRECTOR CHOICE",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00504055|ALUC|3339|20260727|GOLD": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "04:05 PM",
-      "date": "20260727",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "3"
-    },
-    "ET00504055|ALUC|3340|20260727|PLATINUM": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "07:45 PM",
-      "date": "20260727",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00504055|ALUC|3340|20260727|DIRECTOR CHOICE": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "07:45 PM",
-      "date": "20260727",
-      "cat": "DIRECTOR CHOICE",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00504055|ALUC|3340|20260727|GOLD": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "07:45 PM",
-      "date": "20260727",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "2"
-    },
-    "ET00504055|ALUC|3341|20260727|PLATINUM": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "11:25 PM",
-      "date": "20260727",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00504055|ALUC|3341|20260727|DIRECTOR CHOICE": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "11:25 PM",
-      "date": "20260727",
-      "cat": "DIRECTOR CHOICE",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00504055|ALUC|3341|20260727|GOLD": {
-      "event": "ET00504055",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "11:25 PM",
-      "date": "20260727",
       "cat": "GOLD",
       "price": "295.00",
       "status": "3"
