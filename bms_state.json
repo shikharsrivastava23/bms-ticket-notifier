@@ -250,7 +250,7 @@
       "date": "20260727",
       "cat": "RECLINER",
       "price": "349.00",
-      "status": "3"
+      "status": "2"
     },
     "ET00452034|PVUM|27529|20260727|CLASSIC": {
       "event": "ET00452034",
@@ -502,7 +502,7 @@
       "date": "20260728",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "2"
+      "status": "1"
     },
     "ET00452034|PRHN|251858|20260728|GOLD": {
       "event": "ET00452034",
@@ -817,7 +817,7 @@
       "date": "20260727",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "2"
+      "status": "1"
     },
     "ET00504055|ALUC|3288|20260727|DIRECTOR CHOICE": {
       "event": "ET00504055",
