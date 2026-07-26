@@ -1,32 +1,5 @@
 {
   "shows": {
-    "ET00452034|AMBH|115478|20260726|PLATINUM": {
-      "event": "ET00452034",
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "03:30 PM",
-      "date": "20260726",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00452034|AMBH|115478|20260726|GOLD": {
-      "event": "ET00452034",
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "03:30 PM",
-      "date": "20260726",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "0"
-    },
-    "ET00452034|AMBH|115478|20260726|LOUNGERS": {
-      "event": "ET00452034",
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "03:30 PM",
-      "date": "20260726",
-      "cat": "LOUNGERS",
-      "price": "295.00",
-      "status": "0"
-    },
     "ET00452034|AMBH|115501|20260726|PLATINUM": {
       "event": "ET00452034",
       "venue": "AMB Cinemas: Gachibowli",
@@ -43,7 +16,7 @@
       "date": "20260726",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "1"
+      "status": "0"
     },
     "ET00452034|AMBH|115501|20260726|LOUNGERS": {
       "event": "ET00452034",
@@ -169,7 +142,7 @@
       "date": "20260726",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "2"
+      "status": "0"
     },
     "ET00452034|ALUC|3329|20260726|GOLD": {
       "event": "ET00452034",
