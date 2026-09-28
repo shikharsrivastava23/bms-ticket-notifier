@@ -113,7 +113,8 @@ class DateInfo:
 def parse_bms_url(url):
     path = urlparse(url).path.strip("/")
     parts = path.split("/")
-    result = {"event_code": None, "date_code": None, "region_slug": None}
+    result = {"event_code": None, "date_code": None, "region_slug": None,
+              "movie_slug": None}
     for p in parts:
         if re.match(r"^ET\d{8,}$", p):
             result["event_code"] = p
@@ -123,6 +124,8 @@ def parse_bms_url(url):
         idx = parts.index("movies")
         if idx + 1 < len(parts):
             result["region_slug"] = parts[idx + 1]
+        if idx + 2 < len(parts) and parts[idx + 2] != "buytickets":
+            result["movie_slug"] = parts[idx + 2]
     return result
 
 
@@ -675,7 +678,12 @@ def main():
                 continue
 
             if event_code not in movies_found:
-                movies_found[event_code] = parse_movie_info(data)
+                info = parse_movie_info(data)
+                # Single-format movies have no format selector to read the
+                # name from; fall back to the slug in the URL.
+                if info["name"] == "Unknown Movie" and parsed["movie_slug"]:
+                    info["name"] = parsed["movie_slug"].replace("-", " ").title()
+                movies_found[event_code] = info
 
             all_dates.extend(parse_dates(data))
             all_shows.extend(parse_shows(data, event_code))
