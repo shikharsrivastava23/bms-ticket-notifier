@@ -1,10 +1,8 @@
 name: BMS Ticket Checker
 
 on:
-  schedule:
-    # Every 30 minutes
-    - cron: '*/30 * * * *'
-  workflow_dispatch:  # Manual trigger button
+  # Triggered externally via cron-job.org (workflow_dispatch API) for reliable timing
+  workflow_dispatch:
 
 jobs:
   check-tickets:
@@ -32,10 +30,11 @@ jobs:
           RESEND_TO_EMAIL: ${{ secrets.RESEND_TO_EMAIL }}
           RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-          BMS_URLS: ${{ vars.BMS_URLS }}
-          BMS_DATES: ${{ vars.BMS_DATES }}
-          BMS_THEATRE: ${{ vars.BMS_THEATRE }}
-          BMS_TIME: ${{ vars.BMS_TIME }}
+          # Digger (Hyderabad) — Fri 2 Oct & Sat 3 Oct at ALLU / AMB
+          BMS_URLS: https://in.bookmyshow.com/movies/hyderabad/digger/buytickets/ET00477243/20261002
+          BMS_DATES: '20261002,20261003'
+          BMS_THEATRE: 'Allu,AMB'
+          BMS_TIME: ''
         run: uv run main.py
 
       - name: Commit updated state
