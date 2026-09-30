@@ -34,7 +34,7 @@
       "date": "20261002",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "3"
+      "status": "2"
     },
     "ET00477243|AMBH|119256|20261002|PLATINUM": {
       "event": "ET00477243",
@@ -66,7 +66,7 @@
     "ET00477243|ALUC|5548|20261002|PLATINUM": {
       "event": "ET00477243",
       "venue": "ALLU Cinemas: Kokapet",
-      "time": "12:00 PM",
+      "time": "11:45 AM",
       "date": "20261002",
       "cat": "PLATINUM",
       "price": "350.00",
@@ -75,7 +75,7 @@
     "ET00477243|ALUC|5548|20261002|DIRECTOR CHOICE": {
       "event": "ET00477243",
       "venue": "ALLU Cinemas: Kokapet",
-      "time": "12:00 PM",
+      "time": "11:45 AM",
       "date": "20261002",
       "cat": "DIRECTOR CHOICE",
       "price": "350.00",
@@ -84,7 +84,7 @@
     "ET00477243|ALUC|5548|20261002|GOLD": {
       "event": "ET00477243",
       "venue": "ALLU Cinemas: Kokapet",
-      "time": "12:00 PM",
+      "time": "11:45 AM",
       "date": "20261002",
       "cat": "GOLD",
       "price": "295.00",
