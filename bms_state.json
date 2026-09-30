@@ -108,6 +108,24 @@
       "price": "295.00",
       "status": "3"
     },
+    "ET00477243|PVUM|29642|20261002|CLASSIC": {
+      "event": "ET00477243",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "02:15 PM",
+      "date": "20261002",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00477243|PVUM|29644|20261002|CLASSIC": {
+      "event": "ET00477243",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "07:55 PM",
+      "date": "20261002",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
     "ET00477243|PRHN|256913|20261003|GOLD": {
       "event": "ET00477243",
       "venue": "Prasads Multiplex: Hyderabad",
@@ -133,6 +151,24 @@
       "date": "20261003",
       "cat": "GOLD",
       "price": "295.00",
+      "status": "3"
+    },
+    "ET00477243|PVUM|29707|20261003|CLASSIC": {
+      "event": "ET00477243",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "02:15 PM",
+      "date": "20261003",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00477243|PVUM|29709|20261003|CLASSIC": {
+      "event": "ET00477243",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "07:55 PM",
+      "date": "20261003",
+      "cat": "CLASSIC",
+      "price": "249.00",
       "status": "3"
     }
   },
