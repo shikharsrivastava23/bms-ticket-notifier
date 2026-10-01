@@ -70,7 +70,7 @@
       "date": "20261002",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "1"
+      "status": "2"
     },
     "ET00477243|ALUC|5548|20261002|DIRECTOR CHOICE": {
       "event": "ET00477243",
@@ -191,12 +191,12 @@
     }
   },
   "dates": {
-    "20261001": "AVAILABLE",
     "20261002": "AVAILABLE",
     "20261003": "BOOKABLE",
     "20261004": "AVAILABLE",
     "20261005": "AVAILABLE",
     "20261006": "AVAILABLE",
-    "20261007": "AVAILABLE"
+    "20261007": "AVAILABLE",
+    "20261008": "NOT_OPEN"
   }
 }
