@@ -9,15 +9,6 @@
       "price": "295.00",
       "status": "3"
     },
-    "ET00477243|AMBH|119483|20261003|PLATINUM": {
-      "event": "ET00477243",
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "02:20 PM",
-      "date": "20261003",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "1"
-    },
     "ET00477243|AMBH|119490|20261003|PLATINUM": {
       "event": "ET00477243",
       "venue": "AMB Cinemas: Gachibowli",
@@ -43,15 +34,6 @@
       "date": "20261003",
       "cat": "LOUNGERS",
       "price": "295.00",
-      "status": "3"
-    },
-    "ET00477243|PVUM|29707|20261003|CLASSIC": {
-      "event": "ET00477243",
-      "venue": "PVR: Musarambagh, Hyderabad",
-      "time": "02:15 PM",
-      "date": "20261003",
-      "cat": "CLASSIC",
-      "price": "249.00",
       "status": "3"
     },
     "ET00477243|PVUM|29709|20261003|CLASSIC": {
