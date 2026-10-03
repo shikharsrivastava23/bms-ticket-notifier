@@ -1,14 +1,5 @@
 {
   "shows": {
-    "ET00477243|PRHN|256913|20261003|GOLD": {
-      "event": "ET00477243",
-      "venue": "Prasads Multiplex: Hyderabad",
-      "time": "11:35 AM",
-      "date": "20261003",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "3"
-    },
     "ET00477243|PRHN|256917|20261003|GOLD": {
       "event": "ET00477243",
       "venue": "Prasads Multiplex: Hyderabad",
@@ -61,7 +52,7 @@
       "date": "20261003",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "1"
+      "status": "0"
     },
     "ET00477243|ALUC|5619|20261003|DIRECTOR CHOICE": {
       "event": "ET00477243",
