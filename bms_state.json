@@ -8,42 +8,6 @@
       "cat": "GOLD",
       "price": "295.00",
       "status": "3"
-    },
-    "ET00477243|AMBH|119490|20261003|PLATINUM": {
-      "event": "ET00477243",
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "08:35 PM",
-      "date": "20261003",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00477243|AMBH|119490|20261003|GOLD": {
-      "event": "ET00477243",
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "08:35 PM",
-      "date": "20261003",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "2"
-    },
-    "ET00477243|AMBH|119490|20261003|LOUNGERS": {
-      "event": "ET00477243",
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "08:35 PM",
-      "date": "20261003",
-      "cat": "LOUNGERS",
-      "price": "295.00",
-      "status": "3"
-    },
-    "ET00477243|PVUM|29709|20261003|CLASSIC": {
-      "event": "ET00477243",
-      "venue": "PVR: Musarambagh, Hyderabad",
-      "time": "07:55 PM",
-      "date": "20261003",
-      "cat": "CLASSIC",
-      "price": "249.00",
-      "status": "3"
     }
   },
   "dates": {
