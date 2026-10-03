@@ -45,33 +45,6 @@
       "price": "295.00",
       "status": "3"
     },
-    "ET00477243|ALUC|5619|20261003|PLATINUM": {
-      "event": "ET00477243",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "11:45 AM",
-      "date": "20261003",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ET00477243|ALUC|5619|20261003|DIRECTOR CHOICE": {
-      "event": "ET00477243",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "11:45 AM",
-      "date": "20261003",
-      "cat": "DIRECTOR CHOICE",
-      "price": "350.00",
-      "status": "2"
-    },
-    "ET00477243|ALUC|5619|20261003|GOLD": {
-      "event": "ET00477243",
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "11:45 AM",
-      "date": "20261003",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "3"
-    },
     "ET00477243|PVUM|29707|20261003|CLASSIC": {
       "event": "ET00477243",
       "venue": "PVR: Musarambagh, Hyderabad",
