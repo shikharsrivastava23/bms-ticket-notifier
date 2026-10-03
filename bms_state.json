@@ -1,15 +1,5 @@
 {
-  "shows": {
-    "ET00477243|PRHN|256917|20261003|GOLD": {
-      "event": "ET00477243",
-      "venue": "Prasads Multiplex: Hyderabad",
-      "time": "11:35 PM",
-      "date": "20261003",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "3"
-    }
-  },
+  "shows": {},
   "dates": {
     "20261003": "BOOKABLE",
     "20261004": "AVAILABLE",
