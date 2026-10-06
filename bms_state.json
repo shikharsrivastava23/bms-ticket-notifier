@@ -26,6 +26,15 @@
       "cat": "LOUNGERS",
       "price": "295.00",
       "status": "3"
+    },
+    "ET00477243|PVUM|29826|20261008|CLASSIC": {
+      "event": "ET00477243",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "10:40 PM",
+      "date": "20261008",
+      "cat": "CLASSIC",
+      "price": "149.00",
+      "status": "3"
     }
   },
   "dates": {
