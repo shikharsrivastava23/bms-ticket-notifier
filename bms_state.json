@@ -54,6 +54,42 @@
       "price": "295.00",
       "status": "3"
     },
+    "ET00506449|PVUM|29873|20261009|CLASSIC": {
+      "event": "ET00506449",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "11:20 AM",
+      "date": "20261009",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00506449|PVUM|29874|20261009|CLASSIC": {
+      "event": "ET00506449",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "05:00 PM",
+      "date": "20261009",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00506449|IPRS|17682|20261009|CLASSIC": {
+      "event": "ET00506449",
+      "venue": "INOX: Prism Mall, Hyderabad",
+      "time": "05:15 PM",
+      "date": "20261009",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00506449|IPRS|17683|20261009|CLASSIC": {
+      "event": "ET00506449",
+      "venue": "INOX: Prism Mall, Hyderabad",
+      "time": "10:45 PM",
+      "date": "20261009",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
     "ET00506449|AMBH|120051|20261010|PLATINUM": {
       "event": "ET00506449",
       "venue": "AMB Cinemas: Gachibowli",
@@ -88,6 +124,78 @@
       "date": "20261010",
       "cat": "SEMI RECLINER",
       "price": "350.00",
+      "status": "3"
+    },
+    "ET00506449|PVUM|29892|20261010|CLASSIC": {
+      "event": "ET00506449",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "11:20 AM",
+      "date": "20261010",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00506449|PVUM|29904|20261010|CLASSIC": {
+      "event": "ET00506449",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "05:00 PM",
+      "date": "20261010",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00506449|IPRS|17720|20261010|CLASSIC": {
+      "event": "ET00506449",
+      "venue": "INOX: Prism Mall, Hyderabad",
+      "time": "05:15 PM",
+      "date": "20261010",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00506449|IPRS|17722|20261010|CLASSIC": {
+      "event": "ET00506449",
+      "venue": "INOX: Prism Mall, Hyderabad",
+      "time": "10:45 PM",
+      "date": "20261010",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00506449|PVUM|29897|20261011|CLASSIC": {
+      "event": "ET00506449",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "11:20 AM",
+      "date": "20261011",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00506449|PVUM|29909|20261011|CLASSIC": {
+      "event": "ET00506449",
+      "venue": "PVR: Musarambagh, Hyderabad",
+      "time": "05:00 PM",
+      "date": "20261011",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00506449|IPRS|17725|20261011|CLASSIC": {
+      "event": "ET00506449",
+      "venue": "INOX: Prism Mall, Hyderabad",
+      "time": "05:15 PM",
+      "date": "20261011",
+      "cat": "CLASSIC",
+      "price": "249.00",
+      "status": "3"
+    },
+    "ET00506449|IPRS|17727|20261011|CLASSIC": {
+      "event": "ET00506449",
+      "venue": "INOX: Prism Mall, Hyderabad",
+      "time": "10:45 PM",
+      "date": "20261011",
+      "cat": "CLASSIC",
+      "price": "249.00",
       "status": "3"
     }
   },
