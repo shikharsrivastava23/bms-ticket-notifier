@@ -30,11 +30,11 @@ jobs:
           RESEND_TO_EMAIL: ${{ secrets.RESEND_TO_EMAIL }}
           RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-          # Digger (Hyderabad) — Thu 8 Oct, evening + night shows at ALLU / AMB
-          BMS_URLS: https://in.bookmyshow.com/movies/hyderabad/digger/buytickets/ET00477243/20261008
-          BMS_DATES: '20261008'
-          BMS_THEATRE: 'Allu,AMB'
-          BMS_TIME: 'evening,night'
+          # The Social Reckoning (Hyderabad) — Fri 9 / Sat 10 / Sun 11 Oct at ALLU / AMB / Prism
+          BMS_URLS: https://in.bookmyshow.com/movies/hyderabad/the-social-reckoning/buytickets/ET00506449/20261009
+          BMS_DATES: '20261009,20261010,20261011'
+          BMS_THEATRE: 'Allu,AMB,Prism'
+          BMS_TIME: ''
         run: uv run main.py
 
       - name: Commit updated state
