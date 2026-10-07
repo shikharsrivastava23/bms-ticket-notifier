@@ -35,6 +35,60 @@
       "cat": "SEMI RECLINER",
       "price": "350.00",
       "status": "2"
+    },
+    "ET00506449|ALUC|5801|20261009|PLATINUM": {
+      "event": "ET00506449",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "07:50 PM",
+      "date": "20261009",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00506449|ALUC|5801|20261009|GOLD": {
+      "event": "ET00506449",
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "07:50 PM",
+      "date": "20261009",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00506449|AMBH|120051|20261010|PLATINUM": {
+      "event": "ET00506449",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "02:15 PM",
+      "date": "20261010",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ET00506449|AMBH|120051|20261010|GOLD": {
+      "event": "ET00506449",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "02:15 PM",
+      "date": "20261010",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00506449|AMBH|120051|20261010|LOUNGERS": {
+      "event": "ET00506449",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "02:15 PM",
+      "date": "20261010",
+      "cat": "LOUNGERS",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ET00506449|AMBH|120059|20261010|SEMI RECLINER": {
+      "event": "ET00506449",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "10:35 PM",
+      "date": "20261010",
+      "cat": "SEMI RECLINER",
+      "price": "350.00",
+      "status": "3"
     }
   },
   "dates": {
