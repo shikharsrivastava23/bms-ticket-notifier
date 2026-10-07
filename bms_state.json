@@ -1,49 +1,49 @@
 {
   "shows": {
-    "ET00477243|AMBH|119902|20261008|PLATINUM": {
-      "event": "ET00477243",
+    "ET00506449|AMBH|119948|20261009|PLATINUM": {
+      "event": "ET00506449",
       "venue": "AMB Cinemas: Gachibowli",
-      "time": "08:15 PM",
-      "date": "20261008",
+      "time": "01:45 PM",
+      "date": "20261009",
       "cat": "PLATINUM",
       "price": "350.00",
       "status": "0"
     },
-    "ET00477243|AMBH|119902|20261008|GOLD": {
-      "event": "ET00477243",
+    "ET00506449|AMBH|119948|20261009|GOLD": {
+      "event": "ET00506449",
       "venue": "AMB Cinemas: Gachibowli",
-      "time": "08:15 PM",
-      "date": "20261008",
+      "time": "01:45 PM",
+      "date": "20261009",
       "cat": "GOLD",
       "price": "295.00",
       "status": "3"
     },
-    "ET00477243|AMBH|119902|20261008|LOUNGERS": {
-      "event": "ET00477243",
+    "ET00506449|AMBH|119948|20261009|LOUNGERS": {
+      "event": "ET00506449",
       "venue": "AMB Cinemas: Gachibowli",
-      "time": "08:15 PM",
-      "date": "20261008",
+      "time": "01:45 PM",
+      "date": "20261009",
       "cat": "LOUNGERS",
       "price": "295.00",
       "status": "3"
     },
-    "ET00477243|PVUM|29826|20261008|CLASSIC": {
-      "event": "ET00477243",
-      "venue": "PVR: Musarambagh, Hyderabad",
-      "time": "10:40 PM",
-      "date": "20261008",
-      "cat": "CLASSIC",
-      "price": "149.00",
-      "status": "3"
+    "ET00506449|AMBH|119748|20261009|SEMI RECLINER": {
+      "event": "ET00506449",
+      "venue": "AMB Cinemas: Gachibowli",
+      "time": "10:35 PM",
+      "date": "20261009",
+      "cat": "SEMI RECLINER",
+      "price": "350.00",
+      "status": "2"
     }
   },
   "dates": {
-    "20261007": "AVAILABLE",
-    "20261008": "BOOKABLE",
-    "20261009": "NOT_OPEN",
-    "20261010": "NOT_OPEN",
-    "20261011": "NOT_OPEN",
+    "20261009": "AVAILABLE",
+    "20261010": "AVAILABLE",
+    "20261011": "BOOKABLE",
     "20261012": "NOT_OPEN",
-    "20261013": "NOT_OPEN"
+    "20261013": "NOT_OPEN",
+    "20261014": "NOT_OPEN",
+    "20261015": "NOT_OPEN"
   }
 }
