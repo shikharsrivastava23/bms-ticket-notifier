@@ -30,10 +30,10 @@ jobs:
           RESEND_TO_EMAIL: ${{ secrets.RESEND_TO_EMAIL }}
           RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-          # The Social Reckoning (Hyderabad) — Fri 9 / Sat 10 / Sun 11 Oct at ALLU / AMB / Prism
-          BMS_URLS: https://in.bookmyshow.com/movies/hyderabad/the-social-reckoning/buytickets/ET00506449/20261009
-          BMS_DATES: '20261009,20261010,20261011'
-          BMS_THEATRE: 'Allu,AMB,Prism'
+          # Wildwood (Hyderabad) — Fri 20 / Sat 21 Nov at AMB / ALLU / Prism / Atrium, any time
+          BMS_URLS: https://in.bookmyshow.com/movies/hyderabad/wildwood/buytickets/ET00516584/20261120
+          BMS_DATES: '20261120,20261121'
+          BMS_THEATRE: 'AMB,Allu,Prism,Atrium'
           BMS_TIME: ''
         run: uv run main.py
 
